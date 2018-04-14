@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+    <meta charset="UTF-8">
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- Import Font Awesome -->
@@ -12,6 +13,7 @@
     <link rel="stylesheet" href="style.css">
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Tobias Wenck</title>
 </head>
 
@@ -20,11 +22,11 @@
         <nav>
             <div id="nav-wrapper" class="nav-wrapper blue darken-1">
                 <a href="#" id="header-logo" class="brand-logo">Tobias Wenck</a>
-                <ul id="nav-mobile" class="right hide-on-med-and-down">
-                    <li>
+                <ul id="nav-mobile" class="right">
+                    <li class="hide-on-med-and-down">
                         <a href="portfolio.html">Portfolio</a>
                     </li>
-                    <li>
+                    <li class="hide-on-med-and-down">
                         <a href="biografie.html">Biografie</a>
                     </li>
                     <li>
@@ -43,7 +45,7 @@
             <li>
                 <div class="user-view">
                     <div class="background">
-                        <img id="known" src="https://images.pexels.com/photos/326576/pexels-photo-326576.jpeg?cs=srgb&dl=adult-blank-business-326576.jpg&fm=jpg">
+                        <img id="known" src="img/business-card.jpg">
                     </div>
                     <br>
                     <br>
@@ -98,35 +100,35 @@
             <div class="slider">
                 <ul class="slides">
                     <li>
-                        <img src="https://lorempixel.com/580/250/nature/1">
+                        <img src="img/showcase-1.png">
                         <!-- random image -->
                         <div class="caption center-align">
-                            <h3>This is our big Tagline!</h3>
-                            <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                            <h3>Herzlich Willkommen!</h3>
+                            <h5 class="light grey-text text-lighten-3">Ich hoffe, f&uumlr dich ist etwas interessantes dabei!</h5>
                         </div>
                     </li>
                     <li>
-                        <img src="https://lorempixel.com/580/250/nature/2">
+                        <img src="img/showcase-2.jpeg">
                         <!-- random image -->
                         <div class="caption left-align">
-                            <h3>Left Aligned Caption</h3>
-                            <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                            <h3>Webdesign.</h3>
+                            <h5 class="light grey-text text-lighten-3">From simple Brochure-Type...</h5>
                         </div>
                     </li>
                     <li>
-                        <img src="https://lorempixel.com/580/250/nature/3">
-                        <!-- random image -->
-                        <div class="caption right-align">
-                            <h3>Right Aligned Caption</h3>
-                            <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-                        </div>
-                    </li>
-                    <li>
-                        <img src="https://lorempixel.com/580/250/nature/4">
+                        <img src="img/showcase-3.jpeg">
                         <!-- random image -->
                         <div class="caption center-align">
-                            <h3>This is our big Tagline!</h3>
-                            <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                            <h3>Webdesign.</h3>
+                            <h5 class="light grey-text text-lighten-3">...to complex multi-page sites...</h5>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="img/showcase-4.jpeg">
+                        <!-- random image -->
+                        <div class="caption right-align">
+                            <h3>Web-Development.</h3>
+                            <h5 class="light grey-text text-lighten-3">...and even Web Applications.</h5>
                         </div>
                     </li>
                 </ul>
@@ -176,13 +178,14 @@
                         <span class="card-title">
                             <h3>Kenntnisse</h3>
                         </span>
+                        <br>
                         <div class="row">
                             <div class="col l6">
                                 <div class="col l2 s2">
-                                    <i class="fab fa-html5 fa-3x"></i>
+                                    <i id="known-icons" class="fab fa-html5 fa-3x"></i>
                                 </div>
                                 <div class="col l8 s10">
-                                    <p>HTML verwende ich natürlich so lange, wie ich bereits code. Angefangen in der 8. Klasse
+                                    <p>HTML verwende ich nat&uumlrlich so lange, wie ich bereits code. Angefangen in der 8. Klasse
                                         im zarten Alter von 15 Jahren.</p>
                                     <br class="hide-on-large-only">
                                     <br class="hide-on-med-and-up">
@@ -191,10 +194,10 @@
 
                             <div class="col l6">
                                 <div class="col l2 s2">
-                                    <i class="fab fa-css3 fa-3x"></i>
+                                    <i id="known-icons" class="fab fa-css3 fa-3x"></i>
                                 </div>
                                 <div class="col l8 s10">
-                                    <p>Ebenso am Anfang stand natürlich das lernen und beherrschen von CSS. Kenntnisse u.a.
+                                    <p>Ebenso am Anfang stand nat&uumlrlich das lernen und beherrschen von CSS. Kenntnisse u.a.
                                         im grid, layout und Materialize</p>
                                     <br class="hide-on-large-only">
                                     <br class="hide-on-med-and-up">
@@ -205,7 +208,7 @@
                         <div class="row">
                             <div class="col l6">
                                 <div class="col l2 s2">
-                                    <i class="fab fa-js-square fa-3x"></i>
+                                    <i id="known-icons" class="fab fa-js-square fa-3x"></i>
                                 </div>
                                 <div class="col l8 s10">
                                     <p>Mit JavaScript habe ich in der Oberstufe begonnen und nun im Rahmen meines Studiums wieder
@@ -216,11 +219,11 @@
                             </div>
                             <div class="col l6">
                                 <div class="col l2 s2">
-                                    <i class="fab fa-git fa-3x"></i>
+                                    <i id="known-icons" class="fab fa-git fa-3x"></i>
                                 </div>
                                 <div class="col l8 s10">
                                     <p>Auch der Umgang mit der Version Control Platform git liegt in meinen Fähigkeiten. Es
-                                        ist sehr Hilfreich im Bereich der Web-Entwicklung eine Übersicht über seine Versionen
+                                        ist sehr Hilfreich im Bereich der Web-Entwicklung eine &uumlbersicht &uumlber seine Versionen
                                         zu behalten.</p>
                                     <br class="hide-on-large-only">
                                     <br class="hide-on-med-and-up">
@@ -231,7 +234,7 @@
                         <div class="row">
                             <div class="col l6">
                                 <div class="col l2 s2">
-                                    <i class="fab fa-java fa-3x"></i>
+                                    <i id="known-icons" class="fab fa-java fa-3x"></i>
                                 </div>
                                 <div class="col l8 s10">
                                     <p>Neben Web-Entwicklung beschäftige ich mich nebenbei auch noch mit Java. Dort hauptsächlich
@@ -259,7 +262,7 @@
                             optio assumenda quo harum nihil doloribus a laborum? Est soluta, dolores dolore, inventore, enim
                             tenetur odit harum non ex ratione similique a molestias vitae deserunt saepe corporis fuga dolor
                             voluptatum ad adipisci nisi eligendi distinctio? Assumenda.</p>
-                        
+                        <br>
                         <div class="card-action">
                             <a href="#">This is a link</a>
                             <a href="#">This is a link</a>
@@ -281,6 +284,7 @@
                         and GitHub. Also, if you are interested in my work, let me know! Just write me an Email or facebook
                         message
                     </p>
+
                 </div>
                 <div class="col l4 offset-l2 s12">
                     <h5 class="white-text">Social Media</h5>
@@ -307,7 +311,7 @@
         </div>
         <div class="footer-copyright">
             <div class="container">
-                © 2018 Tobias Wenck
+                &copy 2018 Tobias Wenck
                 <a class="grey-text text-lighten-4 right" href="impressum.html">Impressum</a>
             </div>
         </div>
